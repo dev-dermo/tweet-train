@@ -6,7 +6,8 @@ const tweetSchema = new Schema({
 	content: String,
 	published: Date,
 	retweets: Number,
-	likes: Number
+	likes: Number,
+	// submittedBy: [{ type: Schema.Types.ObjectId, ref: 'User' }]
 });
 
 const Tweet = mongoose.model('Tweet', tweetSchema);
