@@ -1,0 +1,10 @@
+node_modules/
+client/node_modules/
+
+.env
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
